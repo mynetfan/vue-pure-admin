@@ -1,1 +1,0 @@
-import{u as n}from"./hooks-eaa099f0.js";import{d as e,e as o,k as r,D as s,u as i}from"./index-4acfbefb.js";const u=e({name:"TabQueryDetail"}),f=e({...u,setup(l){const{initToDetail:t,id:a}=n();return t("query"),(c,_)=>(o(),r("div",null,s(i(a))+" - 详情页内容在此（query传参）",1))}});export{f as default};
