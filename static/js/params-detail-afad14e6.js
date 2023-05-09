@@ -1,1 +1,0 @@
-import{u as s}from"./hooks-83ded5cd.js";import{d as a,e as n,k as o,D as r,u as i}from"./index-9aa0448f.js";const l=a({name:"TabParamsDetail"}),f=a({...l,setup(m){const{initToDetail:e,id:t}=s();return e("params"),(p,c)=>(n(),o("div",null,r(i(t))+" - 详情页内容在此（params传参）",1))}});export{f as default};
