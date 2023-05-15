@@ -110,6 +110,10 @@ html.dark {
       &:hover {
         color: rgb(255 255 255 / 85%) !important;
         background-color: rgb(255 255 255 / 12%);
+
+        .pure-dialog-svg {
+          color: rgb(255 255 255 / 85%) !important;
+        }
       }
     }
   }
@@ -132,6 +136,20 @@ html.dark {
         color: rgb(255 255 255 / 85%);
         background-color: rgb(255 255 255 / 12%);
       }
+    }
+  }
+
+  /* ReSegmented 组件 */
+  .pure-segmented {
+    color: rgb(255 255 255 / 65%);
+    background-color: #000;
+
+    .pure-segmented-item-selected {
+      background-color: #1f1f1f;
+    }
+
+    .pure-segmented-item-disabled {
+      color: rgb(255 255 255 / 25%);
     }
   }
 }
